@@ -1,6 +1,6 @@
 :root {
   --body-bg-color: #eee;
-  --content-bg-color: #fff;
+--content-bg-color
   --card-bg-color: #f5f5f5;
   --text-color: #555;
   --blockquote-color: #666;
@@ -1324,6 +1324,10 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -2772,7 +2776,7 @@ ul.breadcrumb li:last-child {
   }
 }
 body {
-  background: url("https://cdn.jsdelivr.net/gh/shishikanzzz/shishikanzzz.giyhub.io/background.jpg");
+  background: url("https://cdn.jsdelivr.net/gh/shishikanzzz/nojekyllblog/img/6.jpg");
   color: var(--text-color);
   font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
